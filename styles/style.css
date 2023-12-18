@@ -70,10 +70,6 @@ nav a {
     width: 100%;
 }
 
-.darknavbutton {
-    
-}
-
 nav a:hover {
     color: var(--heading-1-color);
 }
@@ -86,6 +82,13 @@ nav a:hover {
 /* Container CSS */
 section:first-child {
     margin-top: 4em;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 article {
